@@ -1,0 +1,20 @@
+#include <iostream>
+#include <vector>
+#include <string>
+
+// makes it so that "std::" doesn't have to be entered before the commands
+using namespace std;
+
+int main(){	
+	int num{100};
+
+	for (int n{ 0 }; n < num; ++n){
+		if (n % 2 == 0) {
+			cout << "Even: " << n << endl;
+		}
+		else
+			cout << "Odd: " << n << endl;
+	}
+
+	return 0;
+}
